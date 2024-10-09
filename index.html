@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple HTML Website - Ryan Baines</title>
+    <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Main Heading -->
     <header>
-        <h1>Ryan Baines</h1>
+        <h1 class="site-title">Ryan Baines</h1>
     </header>
     <article>
         <!-- Introduction About Me -->
@@ -34,17 +35,19 @@
 
         <!-- Image of me at a music festival -->
         <p>
-            <img src="/images/alianait.jpg" alt="Me performing at Alianait Arts Festival in July 2024" width="150"
+            <img id="my-image" src="/images/alianait.jpg" alt="Me performing at Alianait Arts Festival in July 2024" width="150"
                 height="250">
         </p>
         <!-- 2 of my hobbies -->
         <h4>2 of my hobbies</h4>
-        <ul>
+        <ul class="hobby-list">
             <li>Music</li>
             <li>Gaming</li>
         </ul>
         <nav>
-            <a href="/notes/notes.html">Notes</a>
+            <ul>
+                <li><a href="/notes/notes.html">Notes</a></li>
+            </ul>
         </nav>
         <br>
 
