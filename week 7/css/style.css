@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  }
+  header {
+    background-color:red;
+  }
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 5px solid darkred;
+    padding: 10px;
+    margin: 10px;
+    /* box-sizing:border-box; */
+    
+}
+p {
+    width: 200px;
+}
+
+main {
+    width: 350px;
+}
+
+a {
+    visibility: hidden;
+    width: 300px;
+}
+
+.container{
+    /* width: 500px;
+    margin: 0 auto; */
+    border: 2px solid red;
+  }
+.one{
+    width: 200px;
+    float: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .two {
+    float: right;
+    width: 200px;
+  }
+  .three {
+    float: left;
+    width: 200px;
+    clear: both;
+  }
+  .container {
+    /* clear: left; */
+  }
